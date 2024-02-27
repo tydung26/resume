@@ -11,11 +11,12 @@ export const experiences: Experience[] = [
     position: "Senior Software Engineer/Scrum Master",
     time: "May 2021 - November 2023",
     works: [
-      "Implemented React Native UI for the customer-facing app that has 10K monthly active user.",
-      "Build a micro front-end system with Nx which served multiple departments to increase productivity.",
-      "Implemented Excel ETL system for integration team, reducing integrate time from 2 days to 2 hours.",
-      "Worked in an agile scrum team of 12 members, hosting team planning and prioritizing tasks for development team's member.",
-      "Intergrated Fastlane for React Native CD/CD, which allowed the mobile team to quicken release cycles by 27 hours.",
+      "Implemented React Native UI/UX for the customer-facing app, which has 10K monthly active users.",
+      "Built a micro front-end system with Nx and Webpack Module Federation, which served multiple departments to increase productivity.",
+      "Implemented an Excel ETL service for the integration team, reducing integration time from 2 days to 2 hours.",
+      "Designed, implemented, and maintained a SQL AST (Abstract Syntax Tree) parser service that helps the backend determine where to dynamically apply business logic.",
+      "Worked in an Agile Scrum team of 12 members, facilitating Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective.",
+      "Integrated Fastlane for React Native CI/CD, which allowed the mobile team to shorten release cycles by 27 hours.",
     ],
   },
   {
@@ -23,9 +24,9 @@ export const experiences: Experience[] = [
     position: "FullStack Software Engineer/Project Manager",
     time: "August 2019 - April 2021",
     works: [
-      "Designed and implemented React Native UI for the customer-facing app.",
-      "Architected and maintain a custom system that need to be synchronized data between NoSQL and SQL.",
-      "Led an agile scrum team of 5 members, contributing to 80% continuous improvement and deployment (CICD).",
+      "Crafted and executed an exquisite React Native UI/UX tailored for the discerning tastes of our esteemed clientele within our customer-facing application.",
+      "Architected and maintained a custom system that needed to synchronize data between NoSQL and SQL.",
+      "Led an Agile Scrum team of 5 members, contributing to an 80% improvement in continuous integration and deployment (CI/CD).",
       "Mentored 2 junior engineers, increasing their productivity and improving code quality.",
     ],
   },
@@ -35,7 +36,7 @@ export const experiences: Experience[] = [
     time: "December 2017 - July 2019",
     works: [
       "Streamlined deployment process by implementing Jenkins, decreasing deployment times for new features by 1 hour.",
-      "Implemented Apache Kafka, which avoid oracle database write conflict.",
+      "Implemented Apache Kafka, which avoids Oracle database write conflicts.",
     ],
   },
 ];
