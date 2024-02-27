@@ -1,10 +1,13 @@
+import Resume from "./components/Resume";
+import PrintContainer from "./components/layouts/PrintContainer";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-red-500 mt-20">
-        Hello world!
-      </h1>
-    </>
+    <div className="grid place-items-center min-h-screen bg-slate-300">
+      <PrintContainer>
+        <Resume />
+      </PrintContainer>
+    </div>
   );
 }
 
