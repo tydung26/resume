@@ -18,6 +18,8 @@ import WebpackLogo from "../assets/webpack.svg";
 import TailwindLogo from "../assets/tailwind.svg";
 import CicleciLogo from "../assets/cicleci.svg";
 import LambdaLogo from "../assets/lambda.svg";
+import PuppeteerLogo from "../assets/puppeteer.svg";
+import ExcelLogo from "../assets/excel.svg";
 
 export interface Technology {
   name: string;
@@ -98,6 +100,10 @@ export const web: Technology[] = [
     name: "Nx",
     img: NxLogo,
   },
+  {
+    name: "Puppeteer",
+    img: PuppeteerLogo,
+  },
 ];
 
 export const others: Technology[] = [
@@ -116,5 +122,9 @@ export const others: Technology[] = [
   {
     name: "Jenkins",
     img: JenkinsLogo,
+  },
+  {
+    name: "Excel",
+    img: ExcelLogo,
   },
 ];
