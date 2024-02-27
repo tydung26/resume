@@ -3,6 +3,7 @@ import { objective } from "../data";
 import Experience from "./Experience";
 import Certifications from "./Certifications";
 import Technologies from "./Technologies";
+import Projects from "./Projects";
 
 const Resume = () => {
   // break-after-page
@@ -34,6 +35,8 @@ const Resume = () => {
         <Technologies />
 
         <Experience />
+
+        <Projects />
 
         <Certifications />
       </div>

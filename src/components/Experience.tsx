@@ -1,4 +1,5 @@
 import { experiences } from "../data/experience";
+import { classNames } from "../utils/taildwind";
 import SectionHeader from "./SectionHeader";
 
 const Experience = () => {
@@ -7,7 +8,7 @@ const Experience = () => {
       <SectionHeader title="Professional Experience" />
       <div>
         {experiences.map((it, index) => (
-          <div className="mt-8" key={index}>
+          <div className={classNames("mt-8")} key={index}>
             <div className="flex items-center justify-between">
               <div className="font-semibold text-lg">
                 <p className="text-emerald-600">{it.company}</p>

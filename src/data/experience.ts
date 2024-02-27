@@ -35,7 +35,7 @@ export const experiences: Experience[] = [
     position: "Junior Software Engineer",
     time: "December 2017 - July 2019",
     works: [
-      "Streamlined deployment process by implementing Jenkins, decreasing deployment times for new features by 1 hour.",
+      "Streamlined deployment process by implementing Jenkins, decreasing deployment times for new features by 3 hours.",
       "Implemented Apache Kafka, which avoids Oracle database write conflicts.",
     ],
   },

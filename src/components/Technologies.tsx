@@ -16,7 +16,7 @@ interface TechCategoryProps {
 
 const TechCategory: FC<TechCategoryProps> = ({ stacks, title }) => {
   return (
-    <div className={"mt-3 flex"}>
+    <div className="mt-3 flex">
       <p className="mr-2 font-medium">{title}:</p>
 
       {stacks.map((it, index) => (

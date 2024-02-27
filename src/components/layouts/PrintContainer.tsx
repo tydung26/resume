@@ -9,7 +9,7 @@ const PrintContainer: FC<PrintContainerProps> = ({ children }) => {
   // h-[297mm]
 
   return (
-    <div className="m-4 w-[210mm] overflow-hidden rounded-md bg-white shadow-lg print:m-0 print:h-full print:w-screen print:rounded-none print:shadow-none">
+    <div className="m-4 pb-8 w-[210mm] overflow-hidden rounded-md bg-white shadow-lg print:m-0 print:h-full print:w-screen print:rounded-none print:shadow-none">
       {children}
     </div>
   );
