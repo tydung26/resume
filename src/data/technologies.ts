@@ -12,33 +12,19 @@ import DockerLogo from "../assets/docker.svg";
 import PostgresqlLogo from "../assets/postgresql.svg";
 import JenkinsLogo from "../assets/jenkins.svg";
 import NxLogo from "../assets/nx.svg";
+import JavaLogo from "../assets/java.svg";
+import ViteLogo from "../assets/vite.svg";
+import WebpackLogo from "../assets/webpack.svg";
+import TailwindLogo from "../assets/tailwind.svg";
+import CicleciLogo from "../assets/cicleci.svg";
+import LambdaLogo from "../assets/lambda.svg";
 
-interface Technology {
+export interface Technology {
   name: string;
   img?: string;
 }
 
-export const technologies: Technology[] = [
-  {
-    name: "React",
-    img: ReactLogo,
-  },
-  {
-    name: "ReactNative",
-    img: ReactNativeLogo,
-  },
-  {
-    name: "Nodejs",
-    img: NodejsLogo,
-  },
-  {
-    name: "Nestjs",
-    img: NestjsLogo,
-  },
-  {
-    name: "Graphql",
-    img: GraphqlLogo,
-  },
+export const languages: Technology[] = [
   {
     name: "TypeScript",
     img: TypeScriptLogo,
@@ -52,25 +38,80 @@ export const technologies: Technology[] = [
     img: KotlinLogo,
   },
   {
-    name: "Nx",
-    img: NxLogo,
+    name: "Java",
+    img: JavaLogo,
+  },
+];
+
+export const backend: Technology[] = [
+  {
+    name: "Nodejs",
+    img: NodejsLogo,
   },
   {
-    name: "Kafka",
-    img: KafkaLogo,
+    name: "Nestjs",
+    img: NestjsLogo,
   },
+  {
+    name: "Graphql",
+    img: GraphqlLogo,
+  },
+  {
+    name: "Lambda",
+    img: LambdaLogo,
+  },
+  {
+    name: "Postgresql",
+    img: PostgresqlLogo,
+  },
+];
 
+export const mobile: Technology[] = [
+  {
+    name: "React Native",
+    img: ReactNativeLogo,
+  },
   {
     name: "Fastlane",
     img: FastlaneLogo,
   },
+];
+
+export const web: Technology[] = [
+  {
+    name: "React",
+    img: ReactLogo,
+  },
+  {
+    name: "Tailwind",
+    img: TailwindLogo,
+  },
+  {
+    name: "Vite",
+    img: ViteLogo,
+  },
+  {
+    name: "Webpack",
+    img: WebpackLogo,
+  },
+  {
+    name: "Nx",
+    img: NxLogo,
+  },
+];
+
+export const others: Technology[] = [
   {
     name: "Docker",
     img: DockerLogo,
   },
   {
-    name: "Postgresql",
-    img: PostgresqlLogo,
+    name: "Kafka",
+    img: KafkaLogo,
+  },
+  {
+    name: "CicleCI",
+    img: CicleciLogo,
   },
   {
     name: "Jenkins",

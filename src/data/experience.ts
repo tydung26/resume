@@ -7,7 +7,7 @@ interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: "Công ty Nano Technologies",
+    company: "Nano Technologies - VuiApp",
     position: "Senior Software Engineer/Scrum Master",
     time: "May 2021 - November 2023",
     works: [
@@ -19,7 +19,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    company: "Công ty Công nghệ và Truyền thông Smart Life",
+    company: "Smart Life",
     position: "FullStack Software Engineer/Project Manager",
     time: "August 2019 - April 2021",
     works: [
@@ -30,7 +30,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    company: "Tập đoàn Viễn thông Quân đội Viettel",
+    company: "Viettel",
     position: "Junior Software Engineer",
     time: "December 2017 - July 2019",
     works: [
