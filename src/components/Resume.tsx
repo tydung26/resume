@@ -28,7 +28,7 @@ const Resume = () => {
       </div>
 
       <div className="px-10">
-        <div className="font-semibold mt-8">
+        <div className="mt-8">
           <p>{objective}</p>
         </div>
 
